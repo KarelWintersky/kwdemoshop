@@ -1,0 +1,8 @@
+    <script src="/core/js/core.js"></script>
+    <script src="/core/js/tinymce/tinymce.min.js"></script>
+    <script src="/core/js/tinymce.config.js"></script>
+    <script type="text/javascript">
+        tinify(tiny_config['full'], 'area1'); //id!
+    </script>
+
+    <textarea name="ArticleText" id="area1" cols="10" tabindex="3"></textarea>

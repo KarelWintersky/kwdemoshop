@@ -1,0 +1,243 @@
+.highslide-dimming {
+    background: white;
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+}
+
+img {
+    border: 0px;
+}
+
+.highslide-wrapper, .highslide-outline {
+    background: none;
+
+
+}
+
+.highslide-footer {
+    height: 0px;
+}
+
+.highslide-container {
+    opacity: 1;
+}
+
+.highslide-html {
+
+    overflow:hidden;
+}
+.highslide-html-blur {
+    overflow:hidden;
+}
+.highslide-html-content-header {
+    height: 0px;
+    padding: 0px 0px;
+}
+.highslide-html-content {
+    background: no-repeat transparent;
+    position: absolute;
+    display: none;
+    width: 150px;
+    overflow:hidden;
+    overflow-y:hidden;
+}
+.highslide-body {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    float: left;
+    overflow:hidden;
+    overflow-y:hidden;
+    height:88px !important;
+}
+.highslide-body1 {
+    padding: 0 10px 10px 10px;
+    overflow:hidden;
+    overflow-y:hidden;
+    height:190px !important;
+}
+.highslide-body2 {
+    padding: 0 10px 10px 10px;
+    overflow:hidden;
+    overflow-y:hidden;
+    height:70px !important;
+}
+.highslide-display-block {
+    display: block;
+    overflow:hidden;
+    overflow-y:hidden;
+}
+.highslide-display-none {
+    display: none;
+}
+.highslide-move {
+    border: 0;
+    height: 10px;
+    padding: 2px;
+}
+
+a.control {
+    float: right;
+    display: block;
+    margin: 0 0px;
+    font-size: 9px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #999 !important;
+}
+a.control:hover {
+    color: black !important;
+}
+div.alogin_clear {
+    clear: both;
+}
+div.amoduletitle_logo {
+    background-image: !important;
+    background-repeat: no-repeat !important;
+    height: 18px;
+    line-height: 19px;
+    text-align: left !important;
+}
+div.amoduletitle_logo a {
+    margin-left: 0px;
+    font-size: 100%;
+}
+div.amoduletitle_logo1 {
+    text-align: center !important;
+}
+/* этот стиль отвечает за надпись */
+div.amoduletitle_logo1 a {
+    margin-left: 0px;
+    font-size: 100%;
+}
+div.alogin_border-top {
+    border-top: 1px dotted #9A9A9A;
+    clear: both;
+    margin-bottom: 5px;
+}
+div.alogin_border-bottom {
+    border-bottom: 1px dotted #9A9A9A;
+    clear: both;
+    margin-top: 5px;
+}
+/* Login box */
+div.aimglogo {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+div.aimglogo1 {
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+input#alogin_username, input#alogin_password {
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    width: 140px;
+    padding: 2px 2px 2px 18px;
+    font-size: 14px;
+    color: #808080;
+    border: 1px solid #808080;
+}
+a.alogin-lostpassword, a.alogin-createaccount, label.alogin-labelremember, label.alogin-labelusername, label.alogin-labelpassword {
+    color: #555555 !important;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none !important;
+}
+a:hover.alogin-lostpassword, a:hover.alogin-createaccount {
+    text-decoration: underline !important;
+}
+label.alogin-labelusername, label.alogin-labelpassword {
+    font-size: 11px;
+}
+input#alogin_remember {
+    border: none;
+}
+
+input#lb_name, input#lb_username, input#lb_password, input#lb_password2, input#lb_email {
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding: 2px 2px 2px 18px;
+    font-size: 14px;
+    color: #808080;
+    border: 1px solid #808080;
+}
+#highslide-html-logoutform {
+    background-repeat:no-repeat;
+    background-position:left;
+}
+
+
+input#alogin_password {
+}
+div.alogin-form-submit {
+    width: 163px;
+    margin-top: 5px;
+}
+div.alogin-form-submit1 {
+    width: 180px;
+    margin-top: 5px;
+}
+div.alogin-form-input {
+    float: left;
+}
+div.alogin-form-submit input.alogin-loginbutton {
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    border: 0;
+//	width: 20px;
+//	height: 20px;
+    float: left;
+    cursor:pointer;
+}
+div.alogin-form-submit1 input.alogin-regbutton {
+    background-repeat: no-repeat;
+    border: 0;
+    width: 60px;
+    height: 20px;
+    float: right;
+    cursor:pointer;
+}
+/* Logout box */
+div.alogin-logout-greeting {
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    text-align: left !important;
+}
+div.alogin-logout-greeting a {
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;*/
+    }
+div.alogin-logoutform input.alogin-logoutbutton {
+    background-repeat: repeat-x;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 1px;
+    text-align: center;
+    font-size: 11px;
+    border: 3px double #cccccc;
+}
+p.alogin-bold {
+    font-weight: bold;
+    text-align: center;
+}
+div.alogin-logoutform {
+    text-align: center;
+}

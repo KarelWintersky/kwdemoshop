@@ -1,0 +1,691 @@
+/* Кнопки верхнего меню */
+/* вызываются в диве menu_top_block */
+
+/* Основное меню */
+
+/* вызываются в диве menu_top_block */
+/* Кнопка о контактных линзах */
+#b_cont_lenses {
+    position: relative;
+    float: left;
+    left: 40px;
+    top: 10px;
+}
+#b_cont_lenses a {
+    display: block;
+    height: 15px;
+    width: 141px;
+    background: url(images/b1-1.png) transparent 0 0 no-repeat;
+}
+
+#b_cont_lenses a:hover {
+    background-position: -141px 0;
+}
+
+#b_cont_lenses a:active {
+    background-position: -282px 0;
+}
+
+/* Аксессуары */
+#b_access {
+    position: relative;
+    float: left;
+    left: 65px;
+    top: 10px;
+}
+
+#b_access a {
+    display: block;
+    height: 15px;
+    width: 88px;
+    background: url(images/b1-2.png) transparent 0 0 no-repeat;
+    z-index: 1;
+}
+
+#b_access a:hover {
+    background-position: -88px 0;
+}
+
+#b_access a:active {
+    background-position: -176px 0;
+}
+
+/* Оптические линзы */
+#b_opt_lenses {
+    position: relative;
+    float: left;
+    left: 157px;
+    top: 10px;
+}
+#b_opt_lenses a {
+    display: block;
+    height: 15px;
+    width: 138px;
+    background: url(images/b1-5.png) transparent 0 0 no-repeat;
+    z-index: 1;
+}
+
+#b_opt_lenses a:hover {
+    background-position: -138px 0;
+}
+
+#b_opt_lenses a:active {
+    background-position: -276px 0;
+}
+
+/* Солнцезащитные очки */
+#b_solar_glass {
+    position: relative;
+    float:left;
+    top: 10px;
+    left: 93px;
+}
+#b_solar_glass a {
+    display: block;
+    height: 15px;
+    width: 166px;
+    background: url(images/b1-3.png) transparent 0 0 no-repeat;
+    z-index: 1;
+}
+
+#b_solar_glass a:hover {
+    background-position: -166px 0;
+}
+
+#b_solar_glass a:active {
+    background-position: -332px 0;
+}
+
+/* ОПРАВЫ */
+#b_gears {
+    position: relative;
+    top: 10px;
+    float: left;
+    left: 123px;
+}
+#b_gears a {
+    display: block;
+    height: 15px;
+    width: 62px;
+    background: url(images/b1-4.png) transparent 0 0 no-repeat;
+}
+
+#b_gears a:hover {
+    background-position: -62px 0;
+}
+
+#b_gears a:active {
+    background-position: -124px 0;
+}
+
+/* Псевдоблок, чтобы сука осел поганый все понимал */
+#b_psevdo1 {
+    position: relative;
+    top: 4px;
+    left: 1px;
+    width: 1px;
+    float: left;
+}
+
+#b_psevdo1 a {
+    display: block;
+    height: 1px;
+    width: 1px;
+    background: url(images/1x1.gif) transparent 0 0 no-repeat;
+}
+
+/* Кнопки нижнего меню */
+/* относительно menu_middle */
+/* Салоны */
+#b_salons {
+    position: relative;
+    float: left;
+    left: 40px;
+    top: 7px;
+}
+#b_salons a {
+    display: block;
+    height: 15px;
+    width: 64px;
+    background: transparent url(images/b2-1.png) 0 0 no-repeat;
+}
+
+#b_salons a:hover {
+    background-position: -64px 0;
+}
+
+#b_salons a:active {
+    background-position: -128px 0;
+}
+
+/* О компании */
+#b_about {
+    float: left;
+    position: relative;
+    left: 72px;
+    top: 7px;
+}
+#b_about a {
+    display: block;
+    height: 15px;
+    width: 94px;
+    background: transparent url(images/b2-2.png) 0 0 no-repeat;
+}
+
+#b_about a:hover {
+    background-position: -94px 0;
+}
+
+#b_about a:active {
+    background-position: -188px 0;
+}
+
+/* Вакансии */
+#b_vacancy {
+    position: relative;
+    float: left;
+    left: 109px;
+    top: 7px;
+}
+#b_vacancy a {
+    display: block;
+    height: 15px;
+    width: 77px;
+    background: transparent url(images/b2-3.png) 0 0 no-repeat;
+}
+
+#b_vacancy a:hover {
+    background-position: -77px 0;
+}
+
+#b_vacancy a:active {
+    background-position: -154px 0;
+}
+
+/* Врач-офтальмолог - вопрос-ответ, мини-модуль! */
+#b_doctor {
+    position: relative;
+    float: left;
+    left: 143px;
+    top: 7px;
+}
+#b_doctor a {
+    display: block;
+    height: 15px;
+    width: 109px;
+    background: transparent url(images/b2-4.png) 0 0 no-repeat;
+}
+
+#b_doctor a:hover {
+    background-position: -109px 0;
+}
+
+#b_doctor a:active {
+    background-position: -218px 0;
+}
+
+/* Кнопка вызова интернет-магазина */
+#b_go_shop {
+    position: relative;
+    float: left;
+    left: 339px;
+    top: 7px;
+}
+#b_go_shop a {
+    display: block;
+    height: 15px;
+    width: 57px;
+    background: url(images/b2-5.png) transparent 0 0 no-repeat;
+}
+
+#b_go_shop a:hover {
+    background-position: -57px 0;
+}
+
+#b_go_shop a:active {
+    background-position: -114px 0;
+}
+
+/* Кнопка вызова корзины */
+/* из div id=menu_pop_buttons */
+
+#b_go_cart {
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 44px;
+}
+/*
+#b_go_cart a {
+  display: block;
+  height: 29px;
+  width: 37px;
+  background: url(images/b_bin.png) transparent 0 0 no-repeat;
+}
+
+#b_go_cart a:hover {
+  background-position: -37px 0;
+}
+
+#b_go_cart a:active {
+  background-position: -37px 0;
+}
+*/
+/* Кнопка вызова профиля */
+/* из div id=menu_pop_buttons */
+#b_profile {
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 97px;
+}
+#b_profile a {
+    display: block;
+    height: 28px;
+    width: 23px;
+    background: url(images/lock.png) transparent 0 0 no-repeat;
+}
+
+#b_profile a:hover {
+    background-position: -23px 0;
+}
+
+#b_profile a:active {
+    background-position: -23px 0;
+}
+
+#bR_cart {
+    position: relative;
+    float: right;
+    top: 16px;
+    right: 55px;
+}
+
+#bR_cart a {
+    display: block;
+    height: 42px;
+    width: 119px;
+    background: url(images/bR-1.png) transparent 0 0 no-repeat;
+}
+
+#bR_cart a:hover {
+    background-position: -119px 0;
+}
+
+#bR_cart a:active {
+    background-position: -238px 0;
+}
+
+
+
+#bR_login {
+    position: relative;
+    float: right;
+    top: 23px;
+    right: 55px;
+}
+
+
+* HTML div#bR_login {
+    right: 22px;
+}
+
+
+
+#bR_login a {
+    display: block;
+    height: 42px;
+    width: 119px;
+    background: url(images/bR_login.png) transparent 0 0 no-repeat;
+}
+
+#bR_login a:hover {
+    background-position: -119px 0;
+}
+
+#bR_login a:active {
+    background-position: -238px 0;
+}
+
+
+
+#bR_logout {
+    position: relative;
+    float: right;
+    top: 23px;
+    right: 55px;
+}
+
+#bR_logout a {
+    display: block;
+    height: 42px;
+    width: 119px;
+    background: url(images/bR_logout.png) transparent 0 0 no-repeat;
+}
+
+#bR_logout a:hover {
+    background-position: -119px 0;
+}
+
+#bR_logout a:active {
+    background-position: -238px 0;
+}
+
+
+#b_subscribe {
+    position: relative;
+    float: right;
+    top: 36px;
+    right: 55px;
+}
+
+#b_subscribe a {
+    display: block;
+    height: 42px;
+    width: 119px;
+    background: url(images/bR-2.png) transparent 0 0 no-repeat;
+}
+
+#b_subscribe a:hover {
+    background-position: -119px 0;
+}
+
+#b_subscribe a:active {
+    background-position: -238px 0;
+}
+
+#b_articles {
+    position: relative;
+    float: right;
+    top: 23px;
+    right: 55px;
+}
+/*
+#b_articles a {
+  display: block;
+  height: 42px;
+  width: 119px;
+  background: url(images/bR-3.png) transparent 0 0 no-repeat;
+}
+
+#b_articles a:hover {
+  background-position: -119px 0;
+}
+
+#b_articles a:active {
+  background-position: -238px 0;
+}
+*/
+#b_offers {
+    position: relative;
+    float: right;
+    top: 43px;
+    right: 55px;
+}
+
+#b_offers a {
+    display: block;
+    height: 42px;
+    width: 119px;
+    background: url(images/bR-4.png) transparent 0 0 no-repeat;
+}
+
+#b_offers a:hover {
+    background-position: -119px 0;
+}
+
+#b_offers a:active {
+    background-position: -238px 0;
+}
+
+#b_healer {
+    position: relative;
+    float: right;
+    top: 63px;
+    right: 55px;
+}
+
+#b_healer a {
+    display: block;
+    height: 42px;
+    width: 119px;
+    background: url(images/bR-5.png) transparent 0 0 no-repeat;
+}
+
+#b_healer a:hover {
+    background-position: -119px 0;
+}
+
+#b_healer a:active {
+    background-position: -238px 0;
+}
+
+#b_color {
+    position: relative;
+    float: right;
+    top: 83px;
+    right: 55px;
+}
+
+#b_color a {
+    display: block;
+    height: 42px;
+    width: 119px;
+    background: url(images/bR-6.png) transparent 0 0 no-repeat;
+}
+
+#b_color a:hover {
+    background-position: -119px 0;
+}
+
+#b_color a:active {
+    background-position: -238px 0;
+}
+
+#b_repair {
+    position: relative;
+    float: right;
+    top: 103px;
+    right: 55px;
+}
+
+#b_repair a {
+    display: block;
+    height: 42px;
+    width: 119px;
+    background: url(images/bR-7.png) transparent 0 0 no-repeat;
+}
+
+#b_repair a:hover {
+    background-position: -119px 0;
+}
+
+#b_repair a:active {
+    background-position: -238px 0;
+}
+
+
+/* Кнопка "доставка" */
+/* из div id=menu_backlog_block */
+#b_deliver {
+    position: relative;
+    float: left;
+    top: -20px;
+    left: 40px;
+}
+
+#b_deliver a {
+    display: block;
+    height: 15px;
+    width: 166px;
+    background: url(images/b4-1.png) transparent 0 0 no-repeat;
+}
+
+#b_deliver a:hover {
+    background-position: -166px 0;
+}
+
+#b_deliver a:active {
+    background-position: -332px 0;
+}
+
+/* Кнопка "формы оплаты" */
+/* из div id=menu_backlog_block */
+#b_paytypes {
+    position: relative;
+    float: left;
+    top: -20px;
+    left: 35px;
+}
+
+#b_paytypes a {
+    display: block;
+    height: 15px;
+    width: 166px;
+    background: url(images/b4-2.png) transparent 0 0 no-repeat;
+}
+
+#b_paytypes a:hover {
+    background-position: -166px 0;
+}
+
+#b_paytypes a:active {
+    background-position: -332px 0;
+}
+
+/* Кнопка "гарантии" */
+/* из div id=menu_backlog_block */
+#b_garant {
+    position: relative;
+    float: left;
+    top: -20px;
+    left: 40px;
+}
+#b_garant a {
+    display: block;
+    height: 15px;
+    width: 166px;
+    background: url(images/b4-3.png) transparent 0 0 no-repeat;
+
+}
+#b_garant a:hover {
+    background-position: -166px 0;
+}
+
+#b_garant a:active {
+    background-position: -332px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* кнопки для залогиненного пользователя */
+/* в диве menu_bl_image внизу! */
+
+/* История заказов */
+/*
+#b_backlog_hist {
+  position: relative;
+  float: left;
+  left: 59px;
+  top: 60px;
+}
+#b_backlog_hist a {
+  display: block;
+  height: 20px;
+  width: 140px;
+  background: transparent url(images/.png) 0 0 no-repeat;
+  color: #A8A8A8;
+}
+#b_backlog_hist a:hover {
+  background-position: -181px 0;
+}
+
+#b_backlog_hist a:active {
+  background-position: -361px 0;
+}
+*/
+/* Связаться с менеджером */
+/*
+#b_reporting {
+  position: relative;
+  float: left;
+  left: 78px;
+  top: 60px;
+}
+#b_reporting a {
+  display: block;
+  height: 20px;
+  width: 180px;
+  background: transparent url(images/b_reporting.png) 0 0 no-repeat;
+  color: #A8A8A8;
+}
+#b_reporting a:hover {
+  background-position: -180px 0;
+}
+
+#b_reporting a:active {
+  background-position: -359px 0;
+}
+*/
+/* Редактировать личный профиль */
+/*
+#b_editprofile {
+  position: relative;
+  float: left;
+  left: 108px;
+  top: 60px;
+}
+#b_editprofile a {
+  display: block;
+  height: 20px;
+  width: 180px;
+  background: transparent url(images/b_editprofile.png) 0 0 no-repeat;
+  color: #A8A8A8;
+}
+#b_editprofile a:hover {
+  background-position: -181px 0;
+}
+
+#b_editprofile a:active {
+  background-position: -361px 0;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

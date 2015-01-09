@@ -1,0 +1,14 @@
+Подключить скрипт:
+
+<script src="datepicker.js" type="text/javascript" charset="UTF-8" language="javascript"></script>
+<link rel="stylesheet" type="text/css" href="datepicker.css" />
+
+
+В Форме - код для отображения поля ввода:
+
+<form>
+<input name="data">
+<input type="button" 
+       style="background: url('datepicker.jpg') no-repeat; width: 30px; border: 0px;" 
+       onclick="displayDatePicker('data', false, 'dmy', '.');">
+</form>

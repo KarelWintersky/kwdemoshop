@@ -1,0 +1,18 @@
+<?php
+  // logging.lib::using
+  // этому полагается быть на самом верху, но это специально вынесено в одно место для понятности
+  // visitcounter - счетчик посещений страницы, visittime - таймштамп посещения
+
+  $currtime = time();
+  $_SESSION['visitcounter']++;
+  if ($_SESSION['visitcounter']==1) {
+      $_SESSION['visittime']=$currtime;
+  } else {
+      if ((time()-$_SESSION['visittime'])>3600) {
+          $_SESSION['visitcounter']=1;
+          $_SESSION['visittime']=$currtime;
+      }
+  }
+
+  if ($_SESSION['visitcounter']==1) LogUserInfo();
+?>

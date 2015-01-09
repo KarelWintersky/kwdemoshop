@@ -1,0 +1,97 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#admin_menu { /* Навигация по сайту */
+    width: 250px; /* Ширина меню */
+    background: #e3e8cc; /* Цвет фона */
+    border: solid 1px black; /* Параметры рамки */
+    float: left; /* Состыковка с другим слоем по горизонтали */
+    padding: 1px; /* Поля вокруг текста */
+    font-size: 10pt;
+}
+
+#login_div {
+    background: #e3e8cc;
+    border: solid 2px red;
+    padding: 3px;
+}
+
+#content { /* Основное содержание страницы */
+    background: #e3e8cc;
+    border: solid 1px black;
+    margin-left: 265px; /* Отступ слева */
+    margin-bottom: 15px; /* Отступ снизу */
+    // float: right;
+    padding: 5px;
+
+}
+
+#content P {
+    font-size: 90%;
+    text-align: justify;
+    padding: 10px; /* Поля вокруг текста */
+    margin: 0 /* Обнуляем отступы */
+}
+
+form {
+    margin: 0;
+}
+
+.a_preview {
+    background:transparent url(../images/logo.png) repeat scroll 0 50%;
+    height:200px;
+    left:24px;
+    position:fixed;
+    top:214px;
+    width:107px;
+}
+
+.head {
+    text-align: center;
+}
+
+.warning {
+    color: red;
+    font-size: x-small;
+}
+
+.info {
+    color: navy;
+    font-size: x-small;
+}
+
+td.c {
+    text-align: center;
+}
+
+td.l {
+    text-align: left;
+}
+
+td.r {
+    text-align: right;
+}
+
+td.j {
+    text-align: justify;
+}
+
+.datepick {
+    background: url('datepicker/datepicker.jpg') no-repeat;
+    width: 30px;
+    border: 0px;
+}
+
+.myTbl {background:#CAD9EC;}
+.myTblTD0 {background:#DFE8F6;}
+.myTblTD1 {background:#F7F9FD;}
+.myTblTD2 {background:#EBF0FA;}
+
+.help {
+    background-color: #FDEFD7;
+    border-width: 1px 2px 2px 1px;
+    border-style: solid;
+    border-color: #674A49;
+    overflow: auto;
+}

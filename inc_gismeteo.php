@@ -1,0 +1,1 @@
+<script>URL="http://img.gismeteo.ru/flash/fw88x31.swf?index=26063";w="88";h="31";value="26063";lang="ru";</script><script src="http://img.gismeteo.ru/flash/fcode.js"></script>

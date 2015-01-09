@@ -1,0 +1,62 @@
+* {
+}
+
+body {
+  font-family: Tahoma;
+  margin-top: 0px;
+}
+
+table {
+  border: collapse;
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  font-family: Tahoma;
+  text-indent: 2em;
+}
+
+hr {
+  color: #555555;
+  noshade;
+  size: 2px;
+}
+
+img.preview {
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+div.char {
+  text-align:left;
+  padding-bottom: 5px; 
+  padding-left: 15px;
+}
+
+div.product_title {
+  text-align:left;
+  color: red;
+  font-weight: bold;
+  padding-left: 18px;
+}
+
+div.product_text {
+  text-align:left;
+  text-indent: 2em;
+  font-size: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: auto;
+  max-height: 200px;
+}
+
+select#color_right, select#color_left, select#optpower_right, select#optpower_left, select#basecurve_right, select#basecurve_left
+{
+  width: 58px;
+  padding-left: 0px;
+  padding-right: 0px;
+}

@@ -1,0 +1,189 @@
+html {
+}
+
+body {
+    margin:0;padding:0;border: 0;
+    font: tahoma,sans-serif;
+    background: black;
+}
+
+div#global_container {
+    text-align:left;
+    background: url(images/bg6.png);
+    width: 990px;
+    margin: 0 auto;
+    border-left: 0 solid black;
+}
+
+div#global_main {
+    background: black;
+    border-right:182px solid black;
+}
+
+div#main_left {
+    background: url(images/bg5-10.png) no-repeat;
+    float:left;
+    width: 808px;
+}
+
+div#main_right {
+    float: right;
+    margin-right:-182px;
+    width: 182px;
+    clear: right;
+    min-height: 540px;
+}
+
+* HTML div#main_right {
+    margin-right: -91px;
+    min-height:512px;
+    height:auto !important;
+    height:512px;/*Needs to match the min-height pixels above*/
+}
+
+div#global_footer {
+    clear:both;
+    margin:0;
+}
+
+div#static_header {
+    background: url(images/bg1.jpg);
+    height:109px;
+    margin:0;
+}
+
+div#menu_top {
+    background: url(images/bg2.jpg);
+    clear: both;
+    width: 990px;
+    margin: 0;
+    height: 30px;
+}
+
+div#menu_middle_image {
+    background: url(images/bg3.png);
+    clear:both;
+    width: 990px;
+    margin: 0;
+    height: 22px;
+}
+
+div#menu_middle {
+    background: url(images/bg4.png);
+    float:left;
+    width:990px;
+    margin: 0;
+    height: 30px;
+}
+
+div#menu_pop_buttons {
+    background: url(images/bg5-01.png);
+    float: right;
+    width: 990px;
+    margin: 0;
+    height: 36px;
+}
+
+/*стили левой части*/
+
+div#content {
+    position: relative;
+    top: 16px;
+    width: 764px;
+    padding-left: 44px;
+}
+
+/* стили правой части */
+div#right_pop {
+    background: url(images/bg5-11.png);
+    float:right;
+    width: 183px;
+    height: 117px;
+}
+
+div#right_main {
+    background: url(images/bg6-1.png);
+    float:right;
+    width: 182px;
+}
+
+
+div#swf {
+    position: relative;
+    width: 706px;
+    height: 23px;
+    left: 44px;
+    top: -17px;
+}
+
+div#conditions {
+    background: url(images/bg7.png);
+
+    width: 990px;
+    height: 15px;
+}
+
+div#mailing_request {
+    width: 220px;
+    height: 50px;
+    background: #EEEEEE;
+    margin-left: 11px;
+    margin-top: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: #333333;
+    border-left-color: #CCCCCC;
+    border-right-color: #333333;
+    border-top-color: #CCCCCC;
+    text-align: center;
+    line-height: 2;
+}
+
+div#mailing_result {
+    font-size: smaller;
+    color: navy;
+}
+
+/* стили корзинки и магазина */
+
+div#nav {
+    float:left;
+    overflow: hidden;
+    background: url(images/m4_.png) no-repeat;
+    margin: 0;
+    width: 196px;
+
+}
+
+div#nav1 {
+    float:left;
+    overflow: hidden;
+    background: url(images/m4__.png);
+    margin: 0;
+    width: 196px;
+}
+
+div#msk {
+    overflow: hidden;
+    width: 156px;
+    border-bottom: 2px solid #777777;
+}
+
+div#list {
+    float:right;
+    margin:0;
+    width: 568px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,393 @@
+div {
+    font-family: Tahoma;
+}
+
+html {
+}
+
+p {
+    text-indent: 2em;
+    margin:10px 10px 10px 0; // подправить?
+}
+
+/* общие стили ссылок*/
+a {
+    color: black;
+    padding:0px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: OrangeRed;
+}
+a:active {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+
+div#content p {
+    line-height:1.4;
+}
+
+div#content_background_top h2 {
+    color: red;
+}
+
+div#footer p {
+    margin:0;
+    padding:5px 10px
+}
+
+.warning {
+    color: red;
+    font-size: x-small;
+}
+
+.alert {
+    font-size: small;
+}
+
+.red {
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+.correct {
+    color: navy;
+}
+
+/* Стили используемые в profile_edit модуле  */
+.pe_correct {
+    color: navy;
+    float: left;
+}
+
+.pe_error {
+    color: red;
+    float: left;
+}
+
+.pe_button {
+    float: right;
+}
+
+.info {
+    color: navy;
+    font-size: x-small;
+}
+
+/* Стили нетабличных колонок */
+label {
+    float:left;
+    padding-right:10px;
+}
+.field {
+    clear:both;
+    text-align:left;
+    line-height:25px;
+}
+.no_table {
+    float:left;
+}
+
+/* стили таблицы онлайн-консультации */
+._faq_list {
+    border: solid;
+    border-width: 1px;
+    border-color: #555555;
+    border-collapse: collapse;
+}
+
+.faq_item {
+}
+
+table.faq_list tr {
+    vertical-align: middle;
+}
+
+.icon_user {
+    font-weight: bold;
+}
+
+/*
+.icon_user_:before {
+  content:url(images/icons/user.png)
+} */
+
+.icon_question:before {
+
+}
+.icon_answer:before {
+
+}
+
+
+/* стили онлайн-магазина */
+a.del_cart_item:hover {
+    color: red;
+}
+
+
+h2.goods_title {
+    color: red;
+}
+
+div.product_title {
+    color: blue;
+    font-weight: bold;
+    font-size: 110%;
+    float: left;
+}
+
+div.product_type {
+    color: black;
+    float: right;
+    font-style: italic;
+}
+
+div.product_text {
+    font-size: normal;
+}
+
+table.cart_record {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* стили для нетабличных форм */
+
+label {
+    float:left;
+    padding-right:10px;
+}
+.field {
+    clear:both;
+    text-align:right;
+    line-height:25px;
+}
+.no_table {
+    float:left;
+}
+small {
+}
+
+table.hr {
+    border-bottom: 2px solid #555555;
+}
+
+dt {
+    padding-left: 10px;
+    font-size: 12px;
+    padding-bottom: 4px;
+    padding-top: 10px;
+}
+
+dl {
+    padding-right: 0px;
+}
+
+li {
+    line-height: 1.3;
+    margin-left: -55px;
+    list-style: none none none;
+    list-style-type: none;
+    list-style-image: none;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+li.main_li {
+    font-size: 16px;
+}
+
+ol.doctor_li li {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+ul.doctor_li li {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+li.showroom a {
+    font-size: 16px;
+    color: #666666;
+}
+
+li.showroom a:hover {
+    color: red;
+    font-weight: 600;
+}
+
+h2 {
+    color: red;
+    line-height: 10px;
+}
+
+h3 {
+    color: red;
+    margin: 0px 0px 0.1em 0px;
+
+}
+
+img {
+    border: 0px;
+}
+
+img#small {
+    padding: 10px 40px 10px 25px;
+}
+
+/* div фиксированной высоты */
+
+.fixedheight {
+    margin-bottom:2em;
+    max-height:50em;
+    overflow:auto;
+}
+
+
+/* order form */
+
+input#cont_FIO {
+    width: 350px;
+    color: #000000;
+    border: 1px solid #555555;
+}
+
+input#cont_phone {
+    width: 126px;
+    color: #000000;
+    border: 1px solid #555555;
+
+}
+
+input#cont_email {
+    width: 150px;
+    color: #000000;
+    border: 1px solid #555555;
+
+}
+
+textarea#cont_adress {
+    padding-left: 4px;
+    padding-top: 4px;
+    margin-top: 7px;
+    width: 378px;
+    color: #000000;
+    border: 1px solid #555555;
+}
+
+
+input#cont_email {
+    margin-top: 7px;
+    padding-left: 4px;
+}
+
+input#cont_phone {
+    margin-top: 7px;
+    padding-left: 4px;
+}
+
+input#cont_FIO {
+    width: 322px;
+    padding-left: 4px;
+}
+
+// for order_add, order_edit
+// описаны тут, т.к. используются в хайслайде, котоырй не цепляет
+// order.css из хедера.
+
+
+img.preview {
+       border: 1px;
+       border-color: red;
+   }
+
+div.char {
+    font-weight: 600;
+    text-align:left;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+
+div.product_title {
+    text-align:left;
+    color: red;
+    font-size: 120%;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-bottom: 15px;
+}
+
+div.product_text {
+    text-align:left;
+    text-indent: 2em;
+    font-size: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+}
+
+span.field_label {
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+select#color_right_0, select#color_left_0, select#optpower_right_0, select#optpower_left_0, select#basecurve_right_0, select#basecurve_left_0 {
+    width: 58px;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+
+/* Стили FAQ */
+
+a.faq_request {
+    font-weight: 600;
+    color: black;
+}
+
+a.faq_request:hover {
+    border-bottom:2px solid red;
+}
+
+span.the_answer a {
+    border-bottom: 2px solid black;
+}
+
+span.the_answer a:hover {
+    border-bottom: 2px dotted red;
+}
+
+
+/* Стили салонов */
+span.sr_distict_title {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+}
+
+a.order_fill:hover {
+    border-bottom: 2px solid red;
+}
+
+/* */
+
+a.hover_ul {
+    color: black;
+}
+
+a.hover_ul:hover {
+    border-bottom:2px solid red;
+}
+
+

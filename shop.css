@@ -1,0 +1,94 @@
+div {
+    font-family: Tahoma;
+}
+
+p {
+    font-size: 12px;
+}
+
+dt {
+    padding-left: 10px;
+    font-size: 12px;
+    padding-bottom: 4px;
+    padding-top: 10px;
+}
+
+dl {
+    font-size: 1px;
+    padding-right: 0px;
+}
+
+li {
+    margin-left: -55px;
+    list-style: none none none
+    list-style-type: none;
+    list-style-image: none;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+h2 {
+    color: red;
+    line-height: 10px;
+    font-size: large;
+    font-weight: 900;
+}
+
+h3 {
+    color: red;
+}
+
+img.preview {
+    border-width: 0px 2px 0px 2px;
+    border-style: solid;
+    border-color: #777777;
+}
+
+img#small {
+    padding: 10px 25px 10px 25px;
+}
+
+table.goods {
+    border-bottom: 2px solid #555555;
+}
+
+span.shop_order {
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+span.shop_order:hover {
+    color: red;
+}
+
+span.shop_order:active {
+    color: black;
+}
+
+
+div.s_boxsize {
+    margin-bottom: 12px;
+}
+
+div.s_feature {
+    margin-top: 7px;
+}
+
+td.m {
+    padding-right: 15px;
+}
+
+ul.shop li a:hover {
+    color: Orangered;
+}
+
+a.buy_request {
+    font-weight: 600;
+    border-bottom: 2px none black;
+}
+
+a.buy_request:hover {
+    border-bottom: 2px solid red;
+}
+

@@ -1,0 +1,115 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#orders_count {
+    font-weight: bold;
+    color: red;
+}
+
+.warning {
+    color: red;
+    font-size: x-small;
+}
+
+.red {
+    color: red;
+}
+
+.smallinfo {
+    color: navy;
+    font-size: x-small;
+}
+
+.info {
+    color: navy;
+}
+
+td {
+    text-align: center;
+}
+
+td.c {
+    text-align: center;
+}
+
+td.l {
+    text-align: left;
+}
+
+td.r {
+    text-align: right;
+}
+
+td.j {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+th {
+    background-color: gold;
+}
+
+.datepick {
+    background: url('js.datepicker/datepicker.jpg') no-repeat;
+    width: 30px;
+    border: 0px;
+}
+
+.myTbl {background:#CAD9EC;}
+.myTblTD0 {background:#DFE8F6;}
+.myTblTD1 {background:#F7F9FD;}
+.myTblTD2 {background:#EBF0FA;}
+
+#guest_message {
+    font-size:  x-large;
+    text-align: center;
+    color: red;
+}
+
+/* Классы модальных окон */
+
+table.orderlist th {
+    background-color: lavender;
+}
+
+table.orderlist td {
+    background-color: white /* whitesmoke */;
+}
+
+table.orderlist .subheader {
+    background-color: azure;
+}
+
+table.orderlist td.td_control {
+    background-color: antiquewhite;
+}
+
+table.orderwork th {
+    background-color: azure;
+}
+
+table.orderwork td {
+    background-color: white /* whitesmoke */;
+}
+
+table.orderwork td.superheader {
+    background-color: lavender;
+}
+
+table.orderwork td.td_control {
+    background-color: antiquewhite;
+}
+
+
+.ow_topheader {
+    background-color: oldlace
+}
+
+.status_comment {
+    display: none;
+    text-align: left;
+    text-indent: 3em;
+    color: red;
+    font-size: x-small;
+}
